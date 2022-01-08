@@ -1,0 +1,33 @@
+.order {
+  padding-top: 130px;
+  background-color: #C4C4C4;
+}
+
+.order-inner {
+  @include container;
+}
+
+
+.order-title {
+  left: 32.05%;
+  right: 31.97%;
+  top: 0%;
+  bottom: -3.57%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.order-text {
+  width: 1276px;
+  height: 76px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}

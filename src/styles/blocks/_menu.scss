@@ -1,0 +1,22 @@
+.menu {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 47px;
+  }
+}
+
+  a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-ligth;
+    text-decoration: none;
+  }
+
+

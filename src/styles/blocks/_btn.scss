@@ -1,0 +1,39 @@
+.promo-btn {
+  display: inline-block;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 57px;
+  padding: 30px 48px;
+  background: $color-assent;
+  border-radius: 5px;
+  text-decoration:none;
+
+}
+
+.portfolio-btn {
+  display: inline-block;
+  font-size: 42px;
+  line-height: 57px;
+  padding: 30px 48px;
+  background: $color-assent;
+  border-radius: 5px;
+  text-decoration:none;
+
+}
+
+.form-order-btn {
+  display: inline-block;
+  padding: 24px 68px;
+  font-family: $fonts;
+  font-size: 42px;
+  line-height: 57px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  background-color: $color-assent;
+
+}

@@ -1,0 +1,41 @@
+.services {
+  background-color: $color-ligth;
+}
+
+.services-inner {
+  @include container;
+}
+
+
+.services-portfolio {
+  margin: 20 -20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.services-title {
+  left: 33.23%;
+  right: 33.23%;
+  top: 0%;
+  bottom: -3.57%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.services-portfolio-img {
+  width: 304px;
+  height: 304px;
+  left: 82px;
+  top: 314px;
+  padding: 20px 0;
+}
+
+.services-img {
+  width: 100%;
+  display: block;
+}

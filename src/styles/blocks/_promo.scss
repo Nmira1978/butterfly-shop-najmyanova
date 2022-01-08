@@ -1,0 +1,29 @@
+.promo {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/www/images/promo-fone.jpg);
+}
+
+.promo {
+  padding: 100px;
+}
+
+.promo-inner {
+  @include container;
+}
+
+
+.promo-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98.05px;
+  text-align: center;
+  color: $color-ligth;
+  left: 82px;
+  top: 200px;
+
+}

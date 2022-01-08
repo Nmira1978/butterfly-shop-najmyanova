@@ -1,0 +1,25 @@
+.header {
+  padding: 17px 0;
+  background-color: $color-dark;
+}
+
+.headr-inner {
+  @include container;
+}
+
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.main-logo {
+  margin-right: auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: #fff;
+  text-decoration: none;
+}

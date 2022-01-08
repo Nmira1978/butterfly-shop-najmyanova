@@ -1,0 +1,40 @@
+.social-icons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  margin-right: 15px;
+}
+
+.last-child {
+  margin-right: 0;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-link-instagram {
+  background-image: url('/www/images/uil_instagram-alt.svg')
+
+}
+
+.social-link-fb {
+  background-image: url('/www/images/entypo-social_facebook.svg');
+}
+
+.social-link-telegram {
+  background-image: url('/www/images/cib_telegram.svg');
+}
+
+.social-text {
+  font-size: 1px;
+  opacity: 0;
+}
