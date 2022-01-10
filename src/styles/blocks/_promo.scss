@@ -1,16 +1,18 @@
 .promo {
   text-align: center;
-  background-image: url('/www/images/promo-fone.jpg');
+  background-image: url('../images/promo-fone.jpg');
   background-color: rgba(51, 51, 51, 0.4);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  background-position: top;
 }
 
 .promo {
   padding: 100px;
 }
 
-.promo-inner {
+.promo {
   @include container;
 }
 
@@ -27,3 +29,5 @@
   top: 200px;
 
 }
+
+
