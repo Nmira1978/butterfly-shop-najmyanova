@@ -1,38 +1,36 @@
 .footer {
   background-color: $color-dark;
-  
+  padding: 31px 0;
+
 }
 
 .footer-inner {
   @include container;
 }
 
-.footer-copyright {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 57px;
+.footer-wrap {
   display: flex;
   align-items: center;
+  justify-content:space-between;
+
+}
+
+.footer-copyright {
+  display: flex;
+  margin: 0;
+  font-size: 42px;
+  line-height: 57px;
+  font-family: $fonts;
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
   color: #FFFFFF;
+
 }
 
 .footer-phone {
-  margin-right: 60px;
   font-size: 28px;
   line-height: 38px;
   font-weight: 400;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  text-decoration: none;
-
 }
 
-.footer-wrap {
-  align-items: center;
-  justify-content:space-between;
-  display: flex;
-  padding-left: 82px;
-}

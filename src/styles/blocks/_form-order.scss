@@ -1,28 +1,33 @@
-.form {
+.form-order {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
 
 }
 
 .form-order-label {
-  padding: 20px;
+  padding: 20px 0;
+
 }
 
 .form-input {
-  padding: 35px;
+  width: 100%;
+  padding: 35px 30px;
   font-size: 28px;
   line-height: 34px;
-  width: 412px;
-  height: 104px;
   border-radius: 6px;
+  color: $color-dark;
+  font-weight: 400;
+  font-family: inherit;
   border: none;
 }
 
-.form-label {
+.form-order-label {
+  display: inline-block;
+  padding-bottom: 8px;
   font-size: 20px;
   line-height: 27px;
   font-family: Open Sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 
 }

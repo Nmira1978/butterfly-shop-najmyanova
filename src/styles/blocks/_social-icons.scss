@@ -1,16 +1,12 @@
 .social-icons {
   display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .social-item {
-  margin-right: 15px;
-}
-
-.last-child {
-  margin-right: 0;
+  margin-left: 15px;
 }
 
 .social-link {
@@ -19,6 +15,7 @@
   height: 26px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .social-link-instagram {

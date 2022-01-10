@@ -34,18 +34,15 @@
 
 .form-order-btn {
   background-color: $color-assent;
-  display: inline-block;
-  padding: 35px;
-  font-family: $fonts;
+  display: block;
+  padding: 35px 0;
   font-weight: normal;
-  font-size: 42px;
+  font-size: 28px;
+  line-height: 34px;
   align-items: center;
   text-align: center;
-  text-decoration: row;
   border: none;
   border-radius: 6px;
   width: 412px;
-  height: 104px;
-  margin: auto;
 
 }

@@ -7,6 +7,7 @@
 
 .order-inner {
   @include container;
+
 }
 
 
@@ -16,13 +17,14 @@
   font-size: 64px;
   line-height: 87px;
   text-align: center;
+  
 }
 
 .order-text {
   font-family: $fonts;
-  font-weight: normal;
-  width: 1276px;
-  height: 76px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 90px;
   font-size: 28px;
   line-height: 38px;
   text-align: center;
