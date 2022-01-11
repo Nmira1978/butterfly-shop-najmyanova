@@ -1,18 +1,11 @@
 .services {
   background-color: $color-ligth;
 
+ 
 }
 
 .services-inner {
   @include container;
-}
-
-
-.services-portfolio {
-  margin: 20 -20px;
-  display: flex;
-  justify-content: space-between;
-
 }
 
 .services-title {
@@ -28,15 +21,38 @@
   text-align: center;
 }
 
+
+.services-portfolio-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  }
+
+
 .services-portfolio-img {
   width: 304px;
   height: 304px;
   left: 82px;
   top: 314px;
   padding: 20px 0;
+
 }
 
 .services-img {
   width: 100%;
   display: block;
+
 }
+
+.services-portfolio-text {
+  padding: 15px 0;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0.5;
+  text-align: center;
+  color: #ffffff;
+
+}
+

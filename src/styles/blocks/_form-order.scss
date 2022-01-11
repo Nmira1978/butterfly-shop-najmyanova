@@ -4,8 +4,22 @@
 
 }
 
+.form-order-field {
+  flex-basis: 33.33%;
+  padding: 0px 10px;
+
+}
+
+
 .form-order-label {
-  padding: 20px 0;
+  display: inline-block;
+  padding-bottom: 8px;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+
 
 }
 
@@ -21,13 +35,4 @@
   border: none;
 }
 
-.form-order-label {
-  display: inline-block;
-  padding-bottom: 8px;
-  font-size: 20px;
-  line-height: 27px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 400;
 
-}
