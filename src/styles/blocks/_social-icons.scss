@@ -6,8 +6,13 @@
 }
 
 .social-item {
-  margin-left: 15px;
+  margin-right: 15px;
 }
+
+.social-item:last-child {
+  margin-right: 0;
+}
+
 
 .social-link {
   display: block;

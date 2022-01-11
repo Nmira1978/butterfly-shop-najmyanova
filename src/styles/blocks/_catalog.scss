@@ -1,0 +1,47 @@
+.catalog {
+  padding-top: 210px;
+  padding-bottom: 120px;
+}
+
+.services-portfolio-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-right: -10px;
+  margin-left: -10px;
+
+}
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+
+.filter-link {
+  color: rgba(51, 51, 51, 0.8);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+}
+
+.filter-link-active {
+  color: #FF2D2D;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+ }
+
+ .filter-item {
+   margin-right: 50px;
+
+ }
+
