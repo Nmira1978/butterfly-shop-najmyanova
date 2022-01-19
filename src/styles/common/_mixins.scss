@@ -2,5 +2,48 @@
   max-width: 1276px;
   margin: 0 auto;
   border: 1px solid red;
+
+}
+
+@mixin title {
+  margin: 0;
+  font-family: $font-open;
+  text-align: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  color: $color-dark;
+
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+}
+
+@mixin logo {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 42px;
+  line-height: 57px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+
 }
 

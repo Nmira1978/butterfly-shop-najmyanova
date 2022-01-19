@@ -1,5 +1,18 @@
 .services {
   background-color: $color-ligth;
+  padding-top: 220px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 130px;
+  text-align: center;
+
+  @media (max-width: $tablet-max) {
+    padding: 110px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 80px 0;
+  }
 }
 
 .services-inner {
@@ -7,56 +20,55 @@
 }
 
 .services-title {
-  left: 33.23%;
-  right: 33.23%;
-  top: 0%;
-  bottom: -3.57%;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
   line-height: 87px;
   text-align: center;
+  color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
 }
 
-.services-portfolio-list {
-  margin-bottom: 40px;
 
-}
 
 .services-portfolio-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-bottom: 120px;
+
   }
 
 
 .services-portfolio-img {
-  width: 304px;
-  height: 304px;
-  left: 82px;
-  top: 314px;
-  padding: 20px 0;
-
-}
-
-.services-img {
   width: 100%;
-  display: block;
+  position: relative;
+  margin: 0;
 
 }
 
 .services-portfolio-text {
-  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
   font-size: 24px;
   line-height: 33px;
   font-weight: 400;
+  color: $color-ligth;
   background: rgba(0, 0, 0, 0.4);
-  opacity: 0.5;
-  text-align: center;
-  color: #ffffff;
-
 
 }
 

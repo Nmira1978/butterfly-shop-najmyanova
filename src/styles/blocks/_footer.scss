@@ -1,11 +1,11 @@
 .footer {
   background-color: $color-dark;
   padding: 31px 0;
-
 }
 
 .footer-inner {
   @include container;
+
 }
 
 .footer-wrap {
@@ -13,8 +13,10 @@
   align-items: center;
   justify-content: space-between;
 
+  }
 
-}
+
+
 
 .footer-copyright {
   display: flex;
@@ -26,6 +28,7 @@
   font-weight: 600;
   align-items: center;
   color: #FFFFFF;
+
 
 }
 
