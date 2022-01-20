@@ -10,24 +10,36 @@
   border-radius: 5px;
   text-decoration:none;
 
+
 }
 
 .portfolio-btn {
   background: $color-assent;
   display: inline-block;
-  height: 104px;
-  width: 497px;
+  padding: 24px 68px;
   font-size: 42px;
   line-height: 57px;
-  border-radius: 5px;
-  margin: 120px auto;
-  padding: 30px 44px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
+  border: none;
+  border-radius: 6px;
   font-family: $fonts;
   font-weight: 400;
+  text-decoration: none;
+  margin-top: 120px;
+
+
+  @media (max-width: $tablet-max) {
+    margin-top: 80px;
+    padding: 24px 68px;
+    font-size: 42px;
+    line-height: 57px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 60px;
+    padding: 20px 35px;
+    font-size: 24px;
+    line-height: 33px;
+  }
 
 }
 
@@ -45,6 +57,6 @@
   border-radius: 6px;
   width: 412px;
   top: 130px;
-
+  cursor: pointer;
 
 }

@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -6,3 +8,15 @@
   color: $color-assent;
 }
 
+body {
+  margin: 0;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+}

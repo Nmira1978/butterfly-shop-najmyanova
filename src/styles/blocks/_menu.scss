@@ -1,15 +1,40 @@
 .menu {
+  @media (max-width: $mobile-max) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+    background-color: $color-dark;
+
+  }
+}
+
+
   ul {
     display: flex;
     list-style: none;
-    margin: 0px 10px;
+    margin: 0;
     padding: 0;
+
+    @media (max-width: $mobile-max) {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    }
   }
 
   li {
-    margin-left: 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    @media (max-width: $mobile-max) {
+     margin: 0;
+     }
   }
-}
+
 
   a {
     font-family: $fonts;
@@ -19,6 +44,10 @@
     line-height: 33px;
     color: $color-ligth;
     text-decoration: none;
+
+    @media (max-width: $mobile-max) {
+      display: block;
+     }
   }
 
 
