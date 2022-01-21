@@ -9,10 +9,11 @@
 </head>
 
 <body>
+
   <header class="header">
     <div class="header-inner">
       <div class="header-wrap">
-        <a href="index.html" class="main-logo">Butterfly</a>
+        <a href="index.html" class="logo header-logo">Butterfly</a>
 
         <nav class="menu">
           <ul>
@@ -30,12 +31,42 @@
             </li>
           </ul>
         </nav>
+        <div class="mini-menu">
+          <span class="btn-mimi-menu"></span>
+        </div>
 
       </div>
     </div>
   </header>
 
   <main>
+
+    <section class="order" id="order">
+      <div class="order-inner-fade">
+        <div class="order-inner">
+
+          <h2 class="title order-title">Закажи пошив</h2>
+          <p class="order-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На
+            встрече он снимет мерки и поможет обределиться с тканью.</p>
+
+          <form action="#" class="form-order">
+            <div class="form-order-field">
+              <label for="name" class="form-order-label">Ваше имя</label>
+              <input id="name" name="name" type="text" class="form-input">
+            </div>
+            <div class="form-order-field">
+              <label for="phone" class="form-order-label">Телефон</label>
+              <input id="phone" name="phone" type="tel" class="form-input">
+            </div>
+
+            <a href="#" class="form-order-btn">Заказать</a>
+          </form>
+
+       </div>
+
+      </div>
+    </section>
+
     <section class="footer">
       <div class="footer-inner">
         <div class="footer-wrap">
@@ -70,9 +101,7 @@
       </div>
     </section>
 
-
   </main>
-
 
 </body>
 </html>

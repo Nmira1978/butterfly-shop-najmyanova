@@ -1,6 +1,6 @@
 .footer {
   background-color: $color-dark;
-  padding: 31px 0;
+
 }
 
 .footer-inner {
@@ -15,12 +15,10 @@
 
   }
 
-
-
-
 .footer-copyright {
   display: flex;
   margin: 0;
+  padding: 31px 0;
   font-size: 42px;
   line-height: 57px;
   font-family: $fonts;
@@ -37,6 +35,8 @@
   font-size: 28px;
   line-height: 38px;
   font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
 
 }
 
