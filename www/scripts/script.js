@@ -1,1 +1,5 @@
-console.log('script work!');
+$(document).ready(function(){
+
+
+
+});
