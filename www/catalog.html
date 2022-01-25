@@ -14,7 +14,7 @@
       <div class="header-wrap">
         <a href="index.html" class="logo header-logo">Butterfly</a>
 
-        <nav class="menu">
+        <nav class="menu j-menu">
           <ul>
             <li>
               <a href="catalog.html" class="active">Каталог</a>
@@ -30,133 +30,129 @@
             </li>
           </ul>
         </nav>
-        <div class="mini-menu">
-          <span class="btn-mimi-menu"></span>
-        </div>
+
+        <button class="burger j-burger">menu</button>
 
       </div>
     </div>
   </header>
 
   <main>
-    <section class="services">
-      <div class="services-inner">
-
-        <h1 class="services-title">Наши работы</h1>
+    <section class="cases">
+      <div class="cases-inner">
+        <h1 class="cases-title">Наши работы</h1>
 
         <ul class="filter">
-
           <li class="filter-item">
-            <a href="#" class="filter-link-active" data-type="all">Все</a>
+            <a href="#" class="filter-link active j-filter-link" data-filter="all">Все</a>
           </li>
 
           <li class="filter-item">
-            <a href="#" class="filter-link" data-type="strict">Строгие</a>
+            <a href="#" class="filter-link j-filter-link" data-filter="strict">Строгие</a>
           </li>
 
           <li class="filter-item">
-            <a href="#" class="filter-link" data-type="funny">Веселые</a>
+            <a href="#" class="filter-link j-filter-link" data-filter="funny">Веселые</a>
           </li>
 
           <li class="filter-item">
-            <a href="#" class="filter-link" data-type="for animals">Для животных</a>
+            <a href="#" class="filter-link j-filter-link" data-filter="for animals">Для животных</a>
           </li>
 
           <li class="filter-item">
-            <a href="#" class="filter-link" data-type="child">Детские</a>
+            <a href="#" class="filter-link j-filter-link" data-filter="childrens">Детские</a>
           </li>
 
           <li class="filter-item">
-            <a href="#" class="filter-link" data-type="for adults">Для взрослых</a>
+            <a href="#" class="filter-link j-filter-link" data-filter="for adults">Для взрослых</a>
           </li>
 
         </ul>
 
         <div class="services-portfolio-list">
-
           <div class="services-portfolio-wrap">
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-1.jpg" alt="Бабочка в упаковке" class="services-img">
-                <p class="services-portfolio-text">Бабочка такая</p>
+                <p class="services-portfolio-text" data-type='strict'>Бабочка такая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-2.jpg" alt="Бабочка в коробке" class="services-img">
-                <p class="services-portfolio-text">Бабочка растакая</p>
+                <p class="services-portfolio-text" data-type='childrens'>Бабочка растакая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-3.jpg" alt="Бабочка на мужчине" class="services-img">
-                <p class="services-portfolio-text">Бабочка сякая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка сякая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-4.jpg" alt="Бабочка на коте" class="services-img">
-                <p class="services-portfolio-text">Бабочка кривая</p>
+                <p class="services-portfolio-text" data-type='for animals'>Бабочка кривая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-5.jpg" alt="Бабочка в упаковке" class="services-img">
-                <p class="services-portfolio-text">Бабочка такая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка такая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-6.jpg" alt="Бабочка в коробке" class="services-img">
-                <p class="services-portfolio-text">Бабочка растакая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка растакая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-7.jpg" alt="Бабочка на мужчине" class="services-img">
-                <p class="services-portfolio-text">Бабочка сякая</p>
+                <p class="services-portfolio-text" data-type='childrens'>Бабочка сякая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-8.png" alt="Бабочка на коте" class="services-img">
-                <p class="services-portfolio-text">Бабочка кривая</p>
+                <p class="services-portfolio-text" data-type='strict'>Бабочка кривая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-9.jpg" alt="Бабочка в упаковке" class="services-img">
-                <p class="services-portfolio-text">Бабочка такая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка такая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-10.jpg" alt="Бабочка в коробке" class="services-img">
-                <p class="services-portfolio-text">Бабочка растакая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка растакая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-11.jpg" alt="Бабочка на мужчине" class="services-img">
-                <p class="services-portfolio-text">Бабочка сякая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка сякая</p>
               </div>
             </div>
 
             <div class="services-portfolio-img">
               <div class="services-visual-img">
                 <img src="images/portfolio-item-12.jpg" alt="Бабочка на коте" class="services-img">
-                <p class="services-portfolio-text">Бабочка кривая</p>
+                <p class="services-portfolio-text" data-type='for adults'>Бабочка кривая</p>
               </div>
             </div>
 

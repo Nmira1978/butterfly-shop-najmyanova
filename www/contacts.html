@@ -15,7 +15,7 @@
       <div class="header-wrap">
         <a href="index.html" class="logo header-logo">Butterfly</a>
 
-        <nav class="menu">
+        <nav class="menu j-menu">
           <ul>
             <li>
               <a href="catalog.html">Каталог</a>
@@ -31,15 +31,47 @@
             </li>
           </ul>
         </nav>
-        <div class="mini-menu">
-          <span class="btn-mimi-menu"></span>
-        </div>
+
+        <button class="burger j-burger">menu</button>
 
       </div>
     </div>
   </header>
 
   <main>
+
+    <section class="contacts">
+      <div class="contacts-inner">
+        <h1 class="title contacts-title">Контакты</h1>
+
+        <ul class="tabs">
+          <li class="tabs-item">
+            <a href="#" class="tabs-link active j-tabs-link">Санкт-Петербург</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link j-tabs-link">Москва</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link j-tabs-link">Великий Новгород</a>
+          </li>
+        </ul>
+
+        <div class="contacts-item active j-tabs-content">
+          <strong>Санкт-Петербург</strong>
+        </div>
+
+        <div class="contacts-item j-tabs-content">
+          <strong>Москва</strong>
+        </div>
+
+        <div class="contacts-item j-tabs-content">
+          <strong>Великий Новгород</strong>
+        </div>
+
+      </div>
+    </section>
+
+
 
     <section class="order" id="order">
       <div class="order-inner-fade">
@@ -59,21 +91,25 @@
               <input id="phone" name="phone" type="tel" class="form-input">
             </div>
 
-            <a href="#" class="form-order-btn">Заказать</a>
+            <div class="form-order-field form-order-btn">
+              <button class="form-order-btn" type="submit">Заказать</button>
+            </div>
           </form>
 
        </div>
 
       </div>
     </section>
+  </main>
 
-    <section class="footer">
+    <footer class="footer">
       <div class="footer-inner">
+
         <div class="footer-wrap">
           <p class="footer-copyright">Butterfly</p>
 
           <div class="footer-social">
-          <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
+             <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
 
           <ul class="social-icons">
             <li class="social-item">
@@ -93,15 +129,19 @@
                 <span class="social-text">Перейти в Телеграмм</span>
               </a>
             </li>
+
           </ul>
 
           </div>
-
         </div>
       </div>
-    </section>
+    </footer>
 
-  </main>
+
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/script.js"></script>
 
 </body>
+
+
 </html>
