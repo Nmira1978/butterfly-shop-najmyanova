@@ -44,6 +44,22 @@ $(document).ready(function(){
       $('.j-filter-link').removeClass('active');
       $(this).addClass('active');
 
+      if (filter === 'all') {
+        $('.j-portfolio-item').show();
+        return;
+      }
+
+      $('.j-portfolio-item').each(function() {
+        const type = $(this).data('type');
+
+        if (type === filter) {
+          $(this).show();
+          return;
+        }
+
+        $(this).hide();
+      });
+
     });
 
 
