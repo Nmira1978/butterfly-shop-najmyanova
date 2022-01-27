@@ -1,6 +1,6 @@
-.order-inner-fade {
-  padding: 130px 0;
-  color: $color-dark;
+.order {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color:rgba(51, 51, 51, .1);
 
   @media (max-width: $tablet-max) {
@@ -10,8 +10,8 @@
   @media (max-width: $mobile-max) {
     padding: 90px 0;
   }
-
 }
+
 
 .order-inner {
   @include container;

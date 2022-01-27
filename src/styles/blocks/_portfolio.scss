@@ -1,0 +1,117 @@
+.portfolio {
+  background-color: $color-ligth;
+  padding-top: 220px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 130px;
+  text-align: center;
+
+
+  @media (max-width: $tablet-max) {
+    padding: 110px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 80px 0;
+  }
+
+}
+
+.portfolio-inner {
+  @include container;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: $color-dark;
+  margin: 0;
+  margin-bottom: 100px;
+
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+    margin-bottom: 80px;
+
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 60px;
+
+  }
+
+}
+
+
+.portfolio-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+  margin-right: -($indent-gap / 2);
+  margin-left: -($indent-gap / 2);
+
+
+  @media (max-width: $tablet-max) {
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    padding-bottom: 60px;
+  }
+
+  }
+
+  .pportfolio-item {
+    flex-basis: 25%;
+
+
+
+    @media (max-width: $tablet-max) {
+      flex-basis: 50%;
+    }
+
+    @media (max-width: $mobile-max) {
+      &:first-child {
+        padding-top: 0;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+}
+
+.portfolio-position {
+  position: relative;
+}
+
+
+.portfolio-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: $color-ligth;
+  background: rgba(0, 0, 0, 0.4);
+
+}
+
+

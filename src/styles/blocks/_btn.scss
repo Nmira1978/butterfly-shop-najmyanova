@@ -65,4 +65,8 @@
   padding: 35px 0;
   cursor: pointer;
 
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+  }
+
 }

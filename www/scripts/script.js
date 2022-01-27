@@ -33,7 +33,7 @@ $(document).ready(function(){
 
   });
 
-  // Фильтры
+  // Фильтры у каталога
 
     $('.j-filter-link').on('click', function(event) {
       event.preventDefault();

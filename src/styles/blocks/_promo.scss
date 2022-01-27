@@ -1,14 +1,15 @@
 .promo {
   text-align: center;
   background-image: url('../images/promo-fone.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: top;
 
 }
 
 
 
-.promo-lead-fade {
+.promo-fade {
   background-color: rgba(51, 51, 51, 0.4);
   padding-top: 290px;
   padding-bottom: 214px;
