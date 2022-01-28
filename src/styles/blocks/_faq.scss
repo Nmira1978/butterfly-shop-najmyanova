@@ -4,12 +4,7 @@
 }
 
 .faq-title {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 87px;
-  text-align: center;
-
+  @include title;
 }
 
 
@@ -33,7 +28,7 @@
   display: block;
   width: 100%;
   padding: 25px;
-  font-family: Open Sans;
+  font-family: $font-open;
   font-weight: 300;
   font-size: 36px;
   line-height: 49px;

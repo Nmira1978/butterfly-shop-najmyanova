@@ -2,6 +2,8 @@
   display: flex;
   align-items: flex-end;
   margin-left: -10px;
+  margin-right: -10px;
+
 
   @media (max-width: $tablet-max) {
     flex-wrap: wrap;
@@ -14,16 +16,19 @@
 }
 
 .form-order-field {
-  padding: 15px;
-}
-
-.form-order-field-btn {
   flex-basis: 33.33%;
-  padding: 15px;
+  padding: 0 10px;
 
   @media (max-width: $tablet-max) {
     flex-basis: 50%;
-    padding-bottom: 40px;
+
+  }
+}
+
+.form-order-field-btn {
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+    margin-top: 40px;
   }
 
   @media (max-width: $mobile-max) {
@@ -38,9 +43,7 @@
   padding-bottom: 8px;
   font-size: 20px;
   line-height: 27px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 400;
+
 }
 
 .form-input {

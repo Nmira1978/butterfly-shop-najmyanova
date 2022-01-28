@@ -1,4 +1,4 @@
-.promo-btn {
+.btn {
   display: inline-block;
   padding-top: 100px;
   padding-bottom: 214px;
@@ -25,37 +25,7 @@
   }
 }
 
-.portfolio-btn {
-  display: inline-block;
-  font-weight: normal;
-  font-size: 42px;
-  line-height: 57px;
-  padding: 30px 48px;
-  background: $color-assent;
-  border-radius: 5px;
-  text-decoration:none;
-  margin-top: 120px;
-  color: #fff;
-  cursor: pointer;
-
-  @media (max-width: $tablet-max) {
-    padding: 30px 48px;
-    font-size: 42px;
-    line-height: 57px;
-
-  }
-
-  @media (max-width: $mobile-max) {
-    padding: 20px 14px;
-    font-size: 24px;
-    line-height: 33px;
-  }
-
-
-}
-
-
-.form-order-btn {
+.btn-order {
   background-color: $color-assent;
   width: 100%;
   color: #fff;
@@ -63,10 +33,10 @@
   line-height: 34px;
   border-radius: 6px;
   padding: 35px 0;
+  border: none;
   cursor: pointer;
 
   @media (max-width: $tablet-max) {
     flex-basis: 100%;
   }
-
 }

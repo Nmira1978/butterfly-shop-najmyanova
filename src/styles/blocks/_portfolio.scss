@@ -1,11 +1,10 @@
 .portfolio {
   background-color: $color-ligth;
-  padding-top: 220px;
+  padding-top: 130px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 130px;
   text-align: center;
-
 
   @media (max-width: $tablet-max) {
     padding: 110px 0;
@@ -14,7 +13,6 @@
   @media (max-width: $mobile-max) {
     padding: 80px 0;
   }
-
 }
 
 .portfolio-inner {
@@ -23,31 +21,20 @@
 }
 
 .portfolio-title {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 87px;
-  text-align: center;
-  color: $color-dark;
-  margin: 0;
+  @include title;
   margin-bottom: 100px;
-
 
   @media (max-width: $tablet-max) {
     font-size: 60px;
     line-height: 82px;
     margin-bottom: 80px;
-
   }
 
   @media (max-width: $mobile-max) {
     font-size: 36px;
     line-height: 49px;
     margin-bottom: 60px;
-
   }
-
 }
 
 
@@ -55,9 +42,8 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 120px;
-  margin-right: -($indent-gap / 2);
-  margin-left: -($indent-gap / 2);
-
+  margin-right: - calc($indent-gap-half);
+  margin-left: - calc($indent-gap-half);
 
   @media (max-width: $tablet-max) {
     flex-wrap: wrap;
@@ -68,29 +54,22 @@
     display: block;
     padding-bottom: 60px;
   }
+}
 
-  }
-
-  .pportfolio-item {
+  .portfolio-item {
     flex-basis: 25%;
-    padding: ($indent-gap / 2);
-
-
+    padding: calc($indent-gap-half);
 
     @media (max-width: $tablet-max) {
       flex-basis: 50%;
     }
 
     @media (max-width: $mobile-max) {
-      &:first-child {
-        padding-top: 0;
-      }
 
       &:last-child {
         padding-bottom: 0;
       }
     }
-
 }
 
 .portfolio-position {
@@ -112,7 +91,6 @@
   font-weight: 400;
   color: $color-ligth;
   background: rgba(0, 0, 0, 0.4);
-
 }
 
 

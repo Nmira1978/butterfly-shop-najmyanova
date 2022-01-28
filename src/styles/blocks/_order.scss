@@ -15,31 +15,15 @@
 
 .order-inner {
   @include container;
-
 }
 
-
 .order-title {
-  font-family: $fonts;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 87px;
-  text-align: center;
-
-  @media (max-width: $tablet-max) {
-    font-size: 60px;
-    line-height: 82px;
-  }
-
-  @media (max-width: $mobile-max) {
-    font-size: 36px;
-    line-height: 49px;
-  }
-
+  @include title;
+  padding-bottom: 40px;
 }
 
 .order-text {
-  font-family: $fonts;
+  font-family: $font-open;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 90px;
