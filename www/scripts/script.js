@@ -62,6 +62,26 @@ $(document).ready(function(){
 
     });
 
+    // Аккордионы
+
+    let prevBtn;
+
+    $('.j-accordion-btn').on('click', function(){
+
+      if (prevBtn === $(this) [0] ) {
+        $(this).next().slideToggle();
+        $(this).find('.j-faq-icon').toggleClass('faq-icon-minus');
+        return;
+      }
+
+      $('.j-accordion-btn').next().slideUp();
+      $('.j-faq-icon').removeClass('faq-icon-minus');
+      $(this).find('.j-faq-icon').addClass('faq-icon-minus');
+      $(this).next().slideToggle();
+      prevBtn = $(this) [0];
+
+    });
+
 
 
 

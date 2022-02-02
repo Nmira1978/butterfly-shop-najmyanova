@@ -1,6 +1,16 @@
 .faq {
   padding-top: 130px;
-  padding-bottom: 180px;
+  padding-bottom: 130px;
+
+@media (min-width: $tablet-max) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 .faq-title {
@@ -14,7 +24,15 @@
 
 
 .faq-list {
-  margin-top: 60px;
+  margin-top: 80px;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 70px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 52px;
+  }
 }
 
 .faq-item {
@@ -25,9 +43,10 @@
 }
 
 .faq-question {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  padding: 25px;
+  padding: 25px 30px;
   font-family: $font-open;
   font-weight: 300;
   font-size: 36px;
@@ -35,12 +54,54 @@
   text-align: left;
   border: none;
   background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+
+  @media (max-width: $tablet-max) {
+    font-size: 32px;
+    line-height: 44px;
+
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 15px;
+    font-size: 20px;
+    line-height: 27px;
+
+  }
 }
 
 .faq-answear {
   display: none;
-  padding: 0 30px 30px;
+  padding: 0 30px 30px 30px;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
+  text-align: justify;
+
+  @media (max-width: $tablet-max) {
+    padding: 0 30px 25px 30px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 0 15px 15px 15px;
+  }
+}
+
+.j-faq-icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-image: url('/images/icon-plus.jpg');
+
+  @media (max-width: $mobile-max) {
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+  }
+}
+
+.faq-icon-minus {
+  background-image: url('/images/icon-minus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
