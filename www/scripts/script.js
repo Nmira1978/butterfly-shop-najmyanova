@@ -82,6 +82,11 @@ $(document).ready(function(){
 
     });
 
+      // Slider
+
+
+
+
 
 
 
