@@ -52,11 +52,12 @@
 
   @media (max-width: $mobile-max) {
     display: block;
-    padding-bottom: 60px;
+    flex-direction: column;
   }
 }
 
   .portfolio-item {
+    display: inline-block;
     flex-basis: 25%;
     padding: calc($indent-gap-half);
 
@@ -74,16 +75,16 @@
 
 .portfolio-position {
   position: relative;
+
 }
 
 
 .portfolio-text {
   position: absolute;
   left: 0;
-  right: 0;
   bottom: 0;
   width: 100%;
-  margin: auto;
+  margin: 0;
   font-size: 24px;
   line-height: 33px;
   padding: 15px;

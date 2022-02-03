@@ -1,11 +1,8 @@
 $(document).ready(function(){
 
-  let isOpen = false;
+    let isOpen = false;
 
-   $('.j-burger').on('click', function(){
-
-    $('.j-menu').show();
-
+   $('.j-burger').on('click', function() {
     // if (isOpen) {
     //   $('.j-menu').slideUp();
     //   isOpen = false;
@@ -14,8 +11,7 @@ $(document).ready(function(){
     //   isOpen = true;
     // }
 
-    $('.j-menu').slideToggle();
-
+      $('.j-menu').slideToggle();
   });
 
   // Табы на странице контактов

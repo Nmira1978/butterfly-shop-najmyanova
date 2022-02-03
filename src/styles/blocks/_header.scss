@@ -52,10 +52,19 @@
 
 .burger {
   display: none;
-  @media (max-width: $tablet-max) {
-    display: block;
-  }
 
+  @media (max-width: $mobile-max) {
+    display: block;
+    width: 45px;
+    height: 30px;
+    margin-left: 35px;
+    font-size: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('../images/cil_hamburger-menu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
+}
 
 

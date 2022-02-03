@@ -14,11 +14,7 @@
 }
 
 .contacts-title {
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 87px;
-  text-align: center;
-  margin: 0;
+  @include title;
 }
 
 .contacts-item {

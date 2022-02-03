@@ -88,9 +88,9 @@
 }
 
 .j-faq-icon {
-  display: inline-block;
   height: 40px;
   width: 40px;
+  padding-top: 31px;
   background-image: url('/images/icon-plus.jpg');
 
   @media (max-width: $mobile-max) {

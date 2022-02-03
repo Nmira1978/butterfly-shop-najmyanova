@@ -1,8 +1,44 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+
+  @media (max-width: $tablet-max) {
+    overflow-x: auto;
+    // flex-wrap: wrap;
+  }
+
+  @media (max-width: $mobile-max) {
+    justify-content: flex-start;
+    // display: block;
+  }
+}
+
 .filter-link {
+  color: rgba(51, 51, 51, 0.8);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
   text-decoration: none;
+
   &.active {
     color: $color-assent;
   }
 }
 
+.filter-link-active {
+  color: #FF2D2D;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+ }
+
+ .filter-item {
+  padding-right: 30px;
+ }
 
