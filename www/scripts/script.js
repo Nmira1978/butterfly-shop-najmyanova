@@ -80,8 +80,7 @@ $(document).ready(function(){
 
       // Slider
 
-
-
+      $('.j-reviews-content').slick();
 
 
 

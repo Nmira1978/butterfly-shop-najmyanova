@@ -2,5 +2,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 128px;
+  list-style: none;
+}
+
+.slick-prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 28px;
+  background-image: url('/images/стрелка\ влево.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-next {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 28px;
+  background-image: url('/images/Стрелка\ вправо.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-arrow{
+  display: block;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 0;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }

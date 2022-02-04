@@ -22,7 +22,7 @@
 
   &.active {
     display: flex;
-    justify-content: space-between;
+
 
     @media (max-width: $mobile-max) {
     display: flex;
@@ -33,6 +33,8 @@
 
 .contacts-info {
   margin-bottom: 20px;
+  flex-basis: 33.33%;
+
 }
 
 .contacts-text {
@@ -61,5 +63,5 @@
 
 
 .contacts-map {
-  flex-basis: 50%;
+  flex-basis: 66.66%;
 }
