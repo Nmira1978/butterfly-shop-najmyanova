@@ -2,8 +2,7 @@
   padding-top: 220px;
   padding-bottom: 130px;
 
-
-  @media (min-width: $tablet-max) {
+  @media (max-width: $tablet-max) {
     padding-top: 210px;
     padding-bottom: 120px;
   }
@@ -20,18 +19,103 @@
 
 .reviews-title {
   @include title;
-  margin-bottom: 80px;
+}
 
-  @media (min-width: $tablet-max) {
-    margin-bottom: 70px;
+.reviews-content {
+  display: flex;
+  align-items: center;
+}
+
+.reviews-slider {
+  display: flex;
+  align-items: center;
+  padding: 0 128px;
+  padding-top: 80px;
+
+  @media (max-width: $tablet-max) {
+    padding: 0 20px;
+    padding-top: 70px;
   }
 
   @media (max-width: $mobile-max) {
-    margin-bottom: 50px;
+    display: block;
+    padding: 0;
+    padding-top: 40px;
+  }
+}
+
+.review {
+    display: flex;
+    align-items: center;
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
+}
+
+.reviews-photo-wrap {
+    margin-left: 24px;
+    margin-right: 24px;
+
+  @media (max-width: $mobile-max) {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 .reviews-photo {
-  width: 300px;
-  height: 300px;
+    width: 304px;
+    height: 304px;
+
+  @media (max-width: $tablet-max) {
+    width: 236px;
+    height: 236px;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    width: 178px;
+    height: 178px;
+  }
 }
+
+.reviews-name {
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding-top: $indent-gap;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+.reviews-quote {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 33px;
+
+  @media (max-width: $tablet-max) {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+
+

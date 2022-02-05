@@ -1,12 +1,11 @@
 .faq {
-  padding-top: 130px;
-  padding-bottom: 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 
-@media (min-width: $tablet-max) {
+  @media (max-width: $tablet-max) {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-
   @media (max-width: $mobile-max) {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -16,7 +15,6 @@
 .faq-title {
   @include title;
 }
-
 
 .faq-inner {
   @include container;
@@ -36,25 +34,25 @@
 }
 
 .faq-item {
-  margin-top: 40px;
-  border: 1px solid rgba(255, 45, 45, 0.2);
-  box-sizing: border-box;
-  border-radius: 4px;
+    margin-top: 40px;
+    border: 1px solid rgba(255, 45, 45, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 .faq-question {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 25px 30px;
-  font-family: $font-open;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 49px;
-  text-align: left;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 30px;
+    font-family: $font-open;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: left;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
 
   @media (max-width: $tablet-max) {
     font-size: 32px;
@@ -69,12 +67,12 @@
 }
 
 .faq-answear {
-  display: none;
-  padding: 0 30px 30px 30px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: justify;
+    display: none;
+    padding: 0 30px 30px 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
 
   @media (max-width: $tablet-max) {
     padding: 0 30px 25px 30px;
@@ -86,20 +84,20 @@
 }
 
 .j-faq-icon {
-  height: 40px;
-  width: 40px;
-  padding-top: 31px;
-  background-image: url('/images/icon-plus.jpg');
+    height: 40px;
+    width: 40px;
+    background-image: url('/images/icon-plus.jpg');
 
   @media (max-width: $mobile-max) {
     width: 30px;
     height: 30px;
     background-size: 100%;
+    margin-top: 10px;
   }
 }
 
 .faq-icon-minus {
-  background-image: url('/images/icon-minus.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url('/images/icon-minus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
