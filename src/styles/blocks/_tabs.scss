@@ -9,14 +9,17 @@
   list-style: 0;
 
   @media (max-width: $mobile-max) {
-    display: block;
-    text-align: center;
-    margin-bottom: 30px;
+    overflow-x: auto;
+    justify-content: flex-start;
+    // display: block;
+    // text-align: center;
+    // margin-bottom: 30px;
   }
 }
 
 .tabs-item {
   padding: 0 25px;
+  white-space: nowrap;
 
   @media (max-width: $tablet-max) {
     padding: 0 15px;

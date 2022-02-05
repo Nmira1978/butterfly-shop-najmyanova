@@ -6,6 +6,7 @@
   padding: 0;
   margin-bottom: 40px;
 
+
   @media (max-width: $tablet-max) {
     overflow-x: auto;
     // flex-wrap: wrap;
@@ -28,6 +29,7 @@
   &.active {
     color: $color-assent;
   }
+
 }
 
 .filter-link-active {
@@ -42,6 +44,7 @@
  .filter-item {
   padding-right: 15px;
   padding-left: 15px;
+  white-space: nowrap;
 
   @media (max-width: $mobile-max){
     margin-left: -15px;
