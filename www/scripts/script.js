@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
     let isOpen = false;
 
@@ -82,7 +82,7 @@ $(document).ready(function(){
 
       $('.j-reviews-content').slick();
 
-
+      // Portfolio
 
 
 
