@@ -15,6 +15,7 @@
 
 .reviews-inner {
   @include container;
+  border: none;
 }
 
 .reviews-title {

@@ -15,6 +15,7 @@
 
 .order-inner {
   @include container;
+  border: none;
 }
 
 .order-title {

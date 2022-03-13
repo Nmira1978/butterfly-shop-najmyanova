@@ -18,6 +18,7 @@
 .portfolio-inner {
   @include container;
   text-align: center;
+  border: none;
 }
 
 .portfolio-title {
